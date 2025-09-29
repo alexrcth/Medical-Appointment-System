@@ -1,18 +1,18 @@
 ```mermaid
+%% Diagrama de Casos de Uso
 usecaseDiagram
-    actor Doctor
-    actor Paciente
-    actor Administrador
+  actor Doctor
+  actor Paciente
+  actor Administrador
 
-    Paciente --> (Registrarse)
-    Paciente --> (Agendar Cita)
-    Paciente --> (Cancelar Cita)
-    Paciente --> (Consultar Historial)
+  Paciente --> (Registrarse)
+  Paciente --> (Agendar Cita)
+  Paciente --> (Cancelar Cita)
+  Paciente --> (Consultar Historial)
 
-    Doctor --> (Ver Agenda)
-    Doctor --> (Registrar Diagnóstico)
-    Doctor --> (Confirmar/Cancelar Cita)
+  Doctor --> (Ver Agenda)
+  Doctor --> (Registrar Diagnóstico)
+  Doctor --> (Confirmar/Cancelar Cita)
 
-    Administrador --> (Gestionar Usuarios)
-    Administrador --> (Generar Reportes)
-```
+  Administrador --> (Gestionar Usuarios)
+  Administrador --> (Generar Reportes)
