@@ -123,9 +123,10 @@ public class FormularioAgregarPacienteModal extends JDialog {
         cmbGenero.addItem("Femenino");
         cmbGenero.addItem("Otro");
         cmbGenero.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        cmbGenero.setPreferredSize(new Dimension(200, 60));
         cmbGenero.setBorder(BorderFactory.createCompoundBorder(
             BorderFactory.createLineBorder(new Color(209, 213, 219), 1),
-            BorderFactory.createEmptyBorder(10, 15, 10, 15)
+            BorderFactory.createEmptyBorder(8, 15, 8, 15)
         ));
         cmbGenero.setBackground(Color.WHITE);
         columnaIzquierda.add(crearGrupoCampo("Género", cmbGenero));
@@ -174,9 +175,10 @@ public class FormularioAgregarPacienteModal extends JDialog {
         cmbTipoSangre.addItem("O+");
         cmbTipoSangre.addItem("O-");
         cmbTipoSangre.setFont(new Font("Segoe UI", Font.PLAIN, 14));
+        cmbTipoSangre.setPreferredSize(new Dimension(200, 60));
         cmbTipoSangre.setBorder(BorderFactory.createCompoundBorder(
             BorderFactory.createLineBorder(new Color(209, 213, 219), 1),
-            BorderFactory.createEmptyBorder(10, 15, 10, 15)
+            BorderFactory.createEmptyBorder(8, 15, 8, 15)
         ));
         cmbTipoSangre.setBackground(Color.WHITE);
         columnaDerecha.add(crearGrupoCampo("Tipo de Sangre", cmbTipoSangre));
